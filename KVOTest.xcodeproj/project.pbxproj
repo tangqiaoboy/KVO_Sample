@@ -18,6 +18,7 @@
 		4572F13E16931F9A0019673D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4572F13D16931F9A0019673D /* Default-568h@2x.png */; };
 		4572F14116931F9A0019673D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572F14016931F9A0019673D /* ViewController.m */; };
 		4572F14416931F9A0019673D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4572F14216931F9A0019673D /* ViewController.xib */; };
+		4572F14C16931FC20019673D /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4572F14B16931FC20019673D /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		4572F13F16931F9A0019673D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4572F14016931F9A0019673D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4572F14316931F9A0019673D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4572F14A16931FC20019673D /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		4572F14B16931FC20019673D /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				4572F14016931F9A0019673D /* ViewController.m */,
 				4572F14216931F9A0019673D /* ViewController.xib */,
 				4572F12E16931F9A0019673D /* Supporting Files */,
+				4572F14A16931FC20019673D /* MyClass.h */,
+				4572F14B16931FC20019673D /* MyClass.m */,
 			);
 			path = KVOTest;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				4572F13416931F9A0019673D /* main.m in Sources */,
 				4572F13816931F9A0019673D /* AppDelegate.m in Sources */,
 				4572F14116931F9A0019673D /* ViewController.m in Sources */,
+				4572F14C16931FC20019673D /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
